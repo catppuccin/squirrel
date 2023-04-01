@@ -45,9 +45,9 @@
 
 ### 中文
 1. 在[这里](/squirrel.custom.yaml)下载`squirrel.custom.yaml`文件。
-2. 通过“鼠须管”软件菜单栏“用户设置...”菜单项进入配置文件夹。
+2. 通过`鼠须管`软件菜单栏`用户设置...`菜单项进入配置文件夹。
 3. 备份配置文件夹下面的`squirrel.custom.yaml`文件,替换成第一步下载的`squirrel.custom.yaml`文件。
-4. 通过“鼠须管”软件菜单栏“重新部署”菜单项生效配置（默认快捷键:control+option+\`）
+4. 通过`鼠须管`软件菜单栏`重新部署`菜单项生效配置（默认快捷键:control+option+\`）
 5. 完成~
 
 <!-- this section is optional -->
@@ -103,6 +103,7 @@ Here are some color parameters for custom themes(`#aabbggrr`)：
   hilited_comment_text_color: 0xFFFFFF         # 注解文字高亮
   comment_text_color: 0xFFFFFF                 # 拼音等提示文字颜色
 ```
+> 注意：鼠须管配置文件均使用 `#aabbggrr` 的颜色模式，如果使用不同颜色的格式配置时注意转换。
 #### 其他平台的Rime输入法能否适配？
 > 其他平台的Rime输入法如：[小狼毫](https://github.com/rime/weasel)等，按照Rime的相关说明应该是互相通用的，只需将配置文件名称修改为相应的`<配置代号>.custom.yaml`即可，对此本项目未经过相关测试。具体参考 [Rime官方文档](https://github.com/rime/home/wiki )
 
