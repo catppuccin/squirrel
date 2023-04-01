@@ -37,7 +37,7 @@
 ## Usage
 
 ### English
-1. Download `squirrel.custom.yaml` file [here](/squirrel.custom.yaml).
+1. Download `squirrel.custom.yaml` file [here](./theme/squirrel.custom.yaml).
 2. Open the `Squirrel` configuration folder through the `Settings...` menu item in the `Squirrel` menu bar.
 3. Backup the `squirrel.custom.yaml` file in the configuration folder,replace it with the `squirrel.custom.yaml` file downloaded in step one.
 > Instead: open the `squirrel.custom.yaml` file under the configuration folder, copy the content after the `preset_color_schemes` tag from the downloaded file in step one into the configuration, and modify the content of the `style/color_scheme` and `style/color_scheme_dark` tags to your preferred theme. This ensures that the original configuration content is preserved to the greatest extent possible. For specific parameters, please refer to the FAQ.  
@@ -45,7 +45,7 @@
 5. Well done,Enjoy~
 
 ### 中文
-1. 在[这里](/squirrel.custom.yaml)下载`squirrel.custom.yaml`文件。
+1. 在[这里](./theme/squirrel.custom.yaml)下载`squirrel.custom.yaml`文件。
 2. 通过`鼠须管`软件菜单栏`用户设置...`菜单项进入配置文件夹。
 3. 备份配置文件夹下面的`squirrel.custom.yaml`文件,替换成第一步下载的`squirrel.custom.yaml`文件。
 > 或者打开配置文件夹下面的`squirrel.custom.yaml`文件,将第一步下载的文件`preset_color_schemes`标签后的内容复制进入配置中，修改`style/color_scheme`和`style/color_scheme_dark`标签的内容为喜欢的主题，这样可以保证原来的配置内容最大程度上保存，参数具体参考FAQ。
