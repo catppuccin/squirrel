@@ -39,7 +39,8 @@
 ### English
 1. Download `squirrel.custom.yaml` file [here](/squirrel.custom.yaml).
 2. Open the `Squirrel` configuration folder through the `Settings...` menu item in the `Squirrel` menu bar.
-3. Backup the `squirrel.custom.yaml` file in the configuration folder,  replace it with the `squirrel.custom.yaml` file downloaded in step one.
+3. Backup the `squirrel.custom.yaml` file in the configuration folder,replace it with the `squirrel.custom.yaml` file downloaded in step one.
+> Instead: open the `squirrel.custom.yaml` file under the configuration folder, copy the content after the `preset_color_schemes` tag from the downloaded file in step one into the configuration, and modify the content of the `style/color_scheme` and `style/color_scheme_dark` tags to your preferred theme. This ensures that the original configuration content is preserved to the greatest extent possible. For specific parameters, please refer to the FAQ.  
 4. Make the configuration effective through the `Deploy` menu item in the `Squirrel` menu bar (default shortcut: control+option+\`).
 5. Well done,Enjoy~
 
@@ -47,6 +48,7 @@
 1. 在[这里](/squirrel.custom.yaml)下载`squirrel.custom.yaml`文件。
 2. 通过`鼠须管`软件菜单栏`用户设置...`菜单项进入配置文件夹。
 3. 备份配置文件夹下面的`squirrel.custom.yaml`文件,替换成第一步下载的`squirrel.custom.yaml`文件。
+> 或者打开配置文件夹下面的`squirrel.custom.yaml`文件,将第一步下载的文件`preset_color_schemes`标签后的内容复制进入配置中，修改`style/color_scheme`和`style/color_scheme_dark`标签的内容为喜欢的主题，这样可以保证原来的配置内容最大程度上保存，参数具体参考FAQ。
 4. 通过`鼠须管`软件菜单栏`重新部署`菜单项生效配置（默认快捷键:control+option+\`）
 5. 完成~
 
@@ -55,7 +57,7 @@
 
 ### English
 
-#### How to customize the related color theme?:
+#### How to customize the related color theme?
 The following are some custom theme parameters within the file `squirrel.custom.yaml`：
 ```
   style/color_scheme: catppuccin_latte         # for MacOS Light Appearance
@@ -65,7 +67,7 @@ Here are some color parameters for custom themes(`#aabbggrr`)：
 ``` 
   back_color: 0xFFFFFF                         # Candidate bar background color
   border_color: 0xFFFFFF                       # Border color
-  text_color: 0xFFFFFF                         # Pinyin line text color
+  text_color: 0xFFFFFF                         # Pinyin line text color 
   label_color: 0xFFFFFF                        # Candidate bar number color
   candidate_text_color: 0xFFFFFF               # Candidate item text color
   hilited_back_color: 0xFFFFFF                 # Background color of the first candidate item
@@ -83,7 +85,7 @@ Here are some color parameters for custom themes(`#aabbggrr`)：
 
 ### 中文
 
-#### 如何自定义相关颜色主题:
+#### 如何自定义相关颜色主题?
 以下是文件`squirrel.custom.yaml`内自定义的一些主题参数：
 ```
   style/color_scheme: catppuccin_latte         # macos明亮主题
@@ -105,7 +107,7 @@ Here are some color parameters for custom themes(`#aabbggrr`)：
 ```
 > 注意：鼠须管配置文件均使用 `#aabbggrr` 的颜色模式，如果使用不同颜色的格式配置时注意转换。
 #### 其他平台的Rime输入法能否适配？
-> 其他平台的Rime输入法如：[小狼毫](https://github.com/rime/weasel)等，按照Rime的相关说明应该是互相通用的，只需将配置文件名称修改为相应的`<配置代号>.custom.yaml`即可，对此本项目未经过相关测试。具体参考 [Rime官方文档](https://github.com/rime/home/wiki )
+> 其他平台的Rime输入法如：[小狼毫](https://github.com/rime/weasel)等，按照Rime的相关说明应该是互相通用的，只需将配置文件名称修改为相应的`<配置代号>.custom.yaml`即可，对此本项目未经过相关测试。具体参考 [Rime官方文档](https://github.com/rime/home/wiki)。
 
 
 	
