@@ -1,0 +1,124 @@
+
+
+# 適用於【鼠鬚管】0.9.13+
+# 位置：~/Library/Rime/squirrel.custom.yaml
+# 用法：想要哪項生效，就刪去該行行首的#字符，但注意保留用於縮進的空格
+
+patch:
+#  us_keyboard_layout: true      # 鍵盤選項：應用美式鍵盤佈局
+#  show_notifications_when: growl_is_running  # 狀態通知，默認裝有Growl時顯示，也可設爲全開（always）全關（never）
+#  style/inline_preedit: false   # 非內嵌編碼行
+#  style/font_face: "儷黑 Pro"    # 我喜歡的字體名稱
+  style/horizontal: true        # 候選窗横向顯示
+  style/font_point: 16          # 字號
+  style/corner_radius: 6       # 窗口圓角半徑
+  style/border_height: 8        # 窗口邊界高度，大於圓角半徑才有效果
+  style/border_width: 8         # 窗口邊界寬度，大於圓角半徑才有效果
+
+# 註：預設的配色方案及代碼（指定爲 style/color_scheme 系統默認色系 - native）
+  style/color_scheme: catppuccin_latte
+  style/color_scheme_dark: catppuccin_mocha
+
+# 皮肤主题
+  preset_color_schemes:
+    catppuccin_latte:
+      name: Catppuccin Latte
+      horizontal: true                             # true横排，false竖排
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5                             # 窗口圆角
+      hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                             # 行间距(适用于竖排)
+      border_height: 4                             # 窗口上下高度，大于圆角半径才生效
+      border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
+      font_face: "PingFangSC"                      # 候选词字体
+      font_point: 16                               # 候选字大小
+      label_font_point: 13                         # 候选编号大小
+
+      back_color: 0xE8E0DC                         # 候选条背景色
+      border_color: 0xEFE9E6                       # 边框色
+      text_color: 0x775F5C                         # 拼音行文字颜色
+      label_color: 0x856F6C                        # 预选栏编号颜色
+      candidate_text_color: 0x694F4C               # 预选项文字颜色
+      hilited_back_color: 0x7878DD                 # 第一候选项背景背景色
+      hilited_candidate_text_color: 0xF5F1EF       # 第一候选项文字颜色
+      hilited_candidate_label_color: 0xDAD0CC      # 第一候选项编号颜色
+      hilited_text_color: 0xBEB0AC                 # 高亮拼音 (需要开启内嵌编码)
+      hilited_comment_text_color: 0xDAD0CC          # 注解文字高亮
+      comment_text_color: 0xBEB0AC                 # 拼音等提示文字颜色
+
+    catppuccin_mocha:
+      name: Catppuccin Mocha
+      horizontal: true                             # true横排，false竖排
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5                             # 窗口圆角
+      hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                             # 行间距(适用于竖排)
+      border_height: 4                             # 窗口上下高度，大于圆角半径才生效
+      border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
+      font_face: "PingFangSC"                      # 候选词字体
+      font_point: 16                               # 候选字大小
+      label_font_point: 13                         # 候选编号大小
+
+      back_color: 0x1B1111                         # 候选条背景色
+      border_color: 0x251818                       # 边框色
+      text_color: 0xDEC2BA                         # 拼音行文字颜色
+      label_color: 0xC8ADA6                        # 预选栏编号颜色
+      candidate_text_color: 0xF4D6CD               # 预选项文字颜色
+      hilited_back_color: 0xF7A6CB                 # 第一候选项背景背景色
+      hilited_candidate_text_color: 0x2E1E1E       # 第一候选项文字颜色
+      hilited_candidate_label_color: 0x443231      # 第一候选项编号颜色
+      hilited_text_color: 0x705B58                 # 高亮拼音 (需要开启内嵌编码)
+      hilited_comment_text_color: 0x443231         # 注解文字高亮
+      comment_text_color: 0x705B58                 # 拼音等提示文字颜色
+
+
+    catppuccin_frappe:
+      name: Catppuccin Frappe
+      horizontal: true                             # true横排，false竖排
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5                             # 窗口圆角
+      hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                             # 行间距(适用于竖排)
+      border_height: 4                             # 窗口上下高度，大于圆角半径才生效
+      border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
+      font_face: "PingFangSC"                      # 候选词字体
+      font_point: 16                               # 候选字大小f
+      label_font_point: 13                         # 候选编号大小
+
+      back_color: 0x342623                         # 候选条背景色
+      border_color: 0x3C2C29                       # 边框色
+      text_color: 0xE2BFB5                         # 拼音行文字颜色
+      label_color: 0xCEADA5                        # 预选栏编号颜色
+      candidate_text_color: 0xF5D0C6               # 预选项文字颜色
+      hilited_back_color: 0x89D1A6                 # 第一候选项背景背景色
+      hilited_candidate_text_color: 0x463430       # 第一候选项文字颜色
+      hilited_candidate_label_color: 0x594541      # 第一候选项编号颜色
+      hilited_text_color: 0xBB9C94                 # 高亮拼音 (需要开启内嵌编码)
+      hilited_comment_text_color: 0x594541         # 注解文字高亮
+      comment_text_color: 0xBB9C94                 # 拼音等提示文字颜色
+
+    catppuccin_macchiato:
+      name: Catppuccin Macchiato
+      horizontal: true                             # true横排，false竖排
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5                             # 窗口圆角
+      hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                             # 行间距(适用于竖排)
+      border_height: 4                             # 窗口上下高度，大于圆角半径才生效
+      border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
+      font_face: "PingFangSC"                      # 候选词字体
+      font_point: 16                               # 候选字大小f
+      label_font_point: 13                         # 候选编号大小
+
+      back_color: 0x261918                         # 候选条背景色
+      border_color: 0x30201E                       # 边框色
+      text_color: 0xE0C0B8                         # 拼音行文字颜色
+      label_color: 0xCBADA5                        # 预选栏编号颜色
+      candidate_text_color: 0xF5D3CA               # 预选项文字颜色
+      hilited_back_color: 0xF4AD8A                 # 第一候选项背景背景色
+      hilited_candidate_text_color: 0x3A2724       # 第一候选项文字颜色
+      hilited_candidate_label_color: 0x4F3A36      # 第一候选项编号颜色
+      hilited_text_color: 0xB79A93                 # 高亮拼音 (需要开启内嵌编码)
+      hilited_comment_text_color: 0x4F3A36         # 注解文字高亮
+      comment_text_color: 0xB79A93                 # 拼音等提示文字颜色
+
