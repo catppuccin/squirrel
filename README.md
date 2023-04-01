@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/rime/squirrel">Squirrel</a>
+	Catppuccin for <a href="https://github.com/rime/squirrel">Squirrel(Rime for MacOS)</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -78,7 +78,7 @@ Here are some color parameters for custom themes(`#aabbggrr`)：
 > Tip:the color format for Squirrel is `#aabbggrr`. If using a different color format, please make sure to replace accordingly.
 
 #### Can this configuration be adapted to other platforms of Rime input method? 
-> As for other Rime input methods on different platforms, such as [Weasel](https://github.com/rime/weasel) and [ibus-rime](https://github.com/rime/ibus-rime), they should be compatible according to Rime's instructions. You just need to rename the configuration file to the `<configuration code>.custom.yaml`,this project has not undergone relevant testing. Please refer to the [Rime official documentation](https://github.com/rime/home/wiki ) for details.
+> As for other Rime input methods on different platforms, such as [Weasel](https://github.com/rime/weasel), they should be compatible according to Rime's instructions. You just need to rename the configuration file to the `<configuration code>.custom.yaml`,this project has not undergone relevant testing. Please refer to the [Rime official documentation](https://github.com/rime/home/wiki ) for details.
 
 
 ### 中文
@@ -91,20 +91,20 @@ Here are some color parameters for custom themes(`#aabbggrr`)：
 ```
 以下是自定义主题的一些颜色参数(`#aabbggrr`)：
 ```
-  back_color: 0xE8E0DC                         # 候选条背景色
-  border_color: 0xEFE9E6                       # 边框色
-  text_color: 0x775F5C                         # 拼音行文字颜色
-  label_color: 0x856F6C                        # 预选栏编号颜色
-  candidate_text_color: 0x694F4C               # 预选项文字颜色
-  hilited_back_color: 0x7878DD                 # 第一候选项背景背景色
-  hilited_candidate_text_color: 0xF5F1EF       # 第一候选项文字颜色
-  hilited_candidate_label_color: 0xDAD0CC      # 第一候选项编号颜色
-  hilited_text_color: 0xBEB0AC                 # 高亮拼音 (需要开启内嵌编码)
-  hilited_comment_text_color: 0xDAD0CC         # 注解文字高亮
-  comment_text_color: 0xBEB0AC                 # 拼音等提示文字颜色
+  back_color: 0xFFFFFF                         # 候选条背景色
+  border_color: 0xFFFFFF                       # 边框色
+  text_color: 0xFFFFFF                         # 拼音行文字颜色
+  label_color: 0xFFFFFF                        # 预选栏编号颜色
+  candidate_text_color: 0xFFFFFF               # 预选项文字颜色
+  hilited_back_color: 0xFFFFFF                 # 第一候选项背景背景色
+  hilited_candidate_text_color: 0xFFFFFF       # 第一候选项文字颜色
+  hilited_candidate_label_color: 0xFFFFFF      # 第一候选项编号颜色
+  hilited_text_color: 0xFFFFFF                 # 高亮拼音 (需要开启内嵌编码)
+  hilited_comment_text_color: 0xFFFFFF         # 注解文字高亮
+  comment_text_color: 0xFFFFFF                 # 拼音等提示文字颜色
 ```
 #### 其他平台的Rime输入法能否适配？
-> 其他平台的Rime输入法如：[小狼毫](https://github.com/rime/weasel)、[ibus-rime](https://github.com/rime/ibus-rime)等，按照Rime的相关说明应该是互相通用的，只需将配置文件名称修改为相应的`<配置代号>.custom.yaml`即可，对此本项目未经过相关测试。具体参考 [Rime官方文档](https://github.com/rime/home/wiki )
+> 其他平台的Rime输入法如：[小狼毫](https://github.com/rime/weasel)等，按照Rime的相关说明应该是互相通用的，只需将配置文件名称修改为相应的`<配置代号>.custom.yaml`即可，对此本项目未经过相关测试。具体参考 [Rime官方文档](https://github.com/rime/home/wiki )
 
 
 	

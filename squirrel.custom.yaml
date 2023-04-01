@@ -16,8 +16,8 @@ patch:
   style/border_width: 8         # 窗口邊界寬度，大於圓角半徑才有效果
 
 # 註：預設的配色方案及代碼（指定爲 style/color_scheme 系統默認色系 - native）
-  style/color_scheme: catppuccin_latte
-  style/color_scheme_dark: catppuccin_mocha
+  style/color_scheme: catppuccin_latte             #macos明亮主题
+  style/color_scheme_dark: catppuccin_mocha        #macos黑暗主题
 
 # 皮肤主题
   preset_color_schemes:
