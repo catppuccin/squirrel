@@ -15,7 +15,7 @@
 	<img src="./assets/preview.webp"/>
 </p>
 
-## Previews
+## 预览
 
 <details>
 <summary>🌻 Latte</summary>
@@ -35,9 +35,9 @@
 </details>
 
 &nbsp;
-> Read this in other languages: [English](./README.md),[简体中文](./README.zh-cn.md).
+> 阅读其他语言版本: [English](./README.md),[简体中文](./README.zh-cn.md).
 
-## Usage
+## 使用方法
 
 1. 在[这里](./theme/squirrel.custom.yaml)下载`squirrel.custom.yaml`文件。
 2. 通过`鼠须管`软件菜单栏`用户设置...`菜单项进入配置文件夹。
@@ -47,7 +47,7 @@
 5. 完成~
 
 <!-- this section is optional -->
-## 🙋 FAQ
+## 🙋 常见问题
 
 ### 如何自定义相关颜色主题?
 以下是文件`squirrel.custom.yaml`内自定义的一些主题参数：
@@ -76,7 +76,7 @@
 
 	
 
-## 💝 Thanks to
+## 💝 致谢
 
 - [moseeking](https://github.com/moseeking)
 
